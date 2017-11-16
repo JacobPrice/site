@@ -1,27 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import styled from 'styled-components'
 
+import Waves from '../components/waves'
+
+const Test = styled.h1`
+  font-size: 100px;
+  color: blue;
+`
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
-    const posts = this.props.data.allMarkdownRemark.edges
 
     return (
       <div>
         <Helmet title={siteTitle} />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3>
-                <Link to={node.fields.slug}>{title}</Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
+        <Waves />
+        <Test>Hey</Test>
       </div>
     )
   }

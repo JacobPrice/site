@@ -12,25 +12,7 @@ class Template extends React.Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1>
-          <Link to={'/'}>Gatsby Starter Blog</Link>
-        </h1>
-      )
-    } else {
-      header = (
-        <h3>
-          <Link to={'/'}>Gatsby Starter Blog</Link>
-        </h3>
-      )
-    }
-    return (
-      <Container>
-        {header}
-        {children()}
-      </Container>
-    )
+    return <Container>{children()}</Container>
   }
 }
 
