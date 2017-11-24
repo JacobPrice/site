@@ -1,42 +1,24 @@
-import React, { Component } from 'react'
+import React from 'react'
 import * as THREE from 'three'
 import TWEEN from 'tween.js'
+import styled, { keyframes } from 'styled-components'
+import {debounce} from 'lodash'
 import Terrain from '../utils/terrain.js'
+
 
 let camera, scene, renderer, controls
 let wMesh, wGeometry, wMaterial, wHeightMap
 
-export default class Waves extends Component {
+export default class Waves extends React.Component {
   constructor(props, context) {
     super(props, context)
   }
 
   componentDidMount = () => {
-    this.setupCamera()
-    this.setupRenderer()
-    this.setupLights()
-    this.animate()
+    this.createMesh()
+      
+    window.addEventListener( 'resize', debounce(this.createMesh, 300), false )
 
-    wHeightMap = Terrain.allocateHeightMap(100, 200)
-    Terrain.simplexHeightMap(wHeightMap)
-
-    wGeometry = Terrain.heightMapToPlaneGeometry(wHeightMap)
-
-    wMaterial = new THREE.MeshLambertMaterial({
-      color: 0x08FDD8,
-      wireframe: true
-    })
-    wMesh = new THREE.Mesh(wGeometry, wMaterial)
-    wMesh.lookAt(new THREE.Vector3(0, 50, 0))
-    scene.add(wMesh)
-
-    wMesh.scale.set(45, 250, 25)
-    wMesh.scale.multiplyScalar(1.25)
-    wMesh.rotation.z = 5
-    wMesh.position.z = -300
-
-    camera.zoom = 5
-    camera.updateProjectionMatrix()
   }
 
   componentDidUpdate() {
@@ -81,7 +63,9 @@ export default class Waves extends Component {
     renderer.setClearColor(0x252627)
     renderer.setPixelRatio(window.devicePixelRatio)
     renderer.setSize(width, height)
+    this.removeChildren(this.refs.container)
     this.refs.container.appendChild(renderer.domElement)
+  
   }
 
   setupLights = () => {
@@ -97,8 +81,53 @@ export default class Waves extends Component {
     TWEEN.update()
     renderer.render(scene, camera)
   }
+  createMesh = () => {
+    this.setupCamera()
+    this.setupRenderer()
+    this.setupLights()
+    this.animate()
+    wHeightMap = Terrain.allocateHeightMap(100, 200)
+    Terrain.simplexHeightMap(wHeightMap)
+
+    wGeometry = Terrain.heightMapToPlaneGeometry(wHeightMap)
+
+    wMaterial = new THREE.MeshLambertMaterial({
+      color: 0x08FDD8,
+      wireframe: true
+    })
+    wMesh = new THREE.Mesh(wGeometry, wMaterial)
+    wMesh.lookAt(new THREE.Vector3(0, 50, 0))
+    scene.add(wMesh)
+
+    wMesh.scale.set(45, 250, 25)
+    wMesh.scale.multiplyScalar(1.25)
+    wMesh.rotation.z = 5
+    wMesh.position.z = -300
+
+    camera.zoom = 5
+    camera.updateProjectionMatrix()
+  }
+  removeChildren = (el) => {
+    while (el.hasChildNodes()) {
+      el.removeChild(el.lastChild);
+    }
+  }
 
   render() {
-    return <div ref="container" className="slow-fade" />
+
+    return (
+      <Container>
+        <div ref="container" />
+      </Container>
+    )
   }
 }
+
+const Container = styled.div`
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #252627;
+  }
+  `
