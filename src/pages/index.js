@@ -5,20 +5,26 @@ import styled from 'styled-components'
 
 import Waves from '../components/waves'
 
-const Test = styled.h1`
-  font-size: 100px;
-  color: blue;
+const Grid = styled.div`
+  background: #252627;
+  align-self: center;
+`
+const LastPost = styled.div`
+  position: relative;
+  h3 a {
+    color: #08FDD8;
+  }
 `
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
-
+    const posts = this.props.data.allMarkdownRemark.edges
+    console.log(this.props)
     return (
-      <div>
+      <Grid>
         <Helmet title={siteTitle} />
         <Waves />
-        <Test>Hey</Test>
-      </div>
+      </Grid>
     )
   }
 }
@@ -26,7 +32,7 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query BlogQuery {
     site {
       siteMetadata {
         title
