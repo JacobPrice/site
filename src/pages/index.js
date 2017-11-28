@@ -19,7 +19,6 @@ class BlogIndex extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const posts = this.props.data.allMarkdownRemark.edges
-    console.log(this.props)
     return (
       <Grid>
         <Helmet title={siteTitle} />

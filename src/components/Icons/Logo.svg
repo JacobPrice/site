@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-50.000000, -50.000000)">
+            <g id="Logo" transform="translate(50.000000, 50.000000)">
+                <text id="JP" font-family="Roboto-MediumItalic, Roboto" font-size="23" font-style="italic" font-weight="500" line-spacing="17" fill="#08FDD8">
+                    <tspan x="10" y="38">JP</tspan>
+                </text>
+                <rect id="Rectangle-2" stroke="#08FDD8" stroke-width="3" x="1.5" y="1.5" width="47" height="47"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

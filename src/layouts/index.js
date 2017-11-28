@@ -5,37 +5,46 @@ import styled from 'styled-components'
 import Github from '../components/Icons/Github'
 import Mail from '../components/Icons/Mail'
 import Twitter from '../components/Icons/Twitter'
+import Logo from '../components/Icons/Logo'
 
 const Container = styled.div`
-  background:#252627;
-  min-height: 100vh;
 `
 const Navigation = styled.nav`
   position: relative;
   z-index: 100;
-  display: flex;
-  padding: 2em 2em;
-  justify-content: space-around;
-  max-width: 768px;
-  margin: 0 auto;
+  padding: 1em 2em;
   width: 100%;
   align-self: flex-start;
-  > a {
-    color: white;
-    transition: color 0.2s ease;
-    text-decoration: none;
-    &:hover {
-      color: #FC0853;
-      > svg path{
-        fill: #FC0853;
-        transition: fill 0.2s ease;
-      }
+  background: #252627;
+  display: flex;
+  }
+`
+const InnerNav = styled.div`
+max-width: 768px;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+align-self: center;
+flex: 1;
+> a {
+  color: white;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  &:hover {
+    color: #FC0853;
+    > svg path{
+      fill: #FC0853;
+      transition: fill 0.2s ease;
     }
   }
 `
 const Nav = () => (
   <Navigation>
-    {/* <NavLink>Work</NavLink> */}
+    <Link to='/'>
+      <Logo />
+    </Link>
+   <InnerNav>
+      {/* <NavLink>Work</NavLink> */}
     <Link to='/blog'>Blog</Link>
     <a href='https://github.com/jacobprice' target='blank'>
       <Github width={25} height={25}/>
@@ -46,6 +55,7 @@ const Nav = () => (
     <a href='mailto:j@cobprice.com'>
       <Mail width={25} height={25}/>
     </a>
+   </InnerNav>
   </Navigation>
 )
 class Template extends React.Component {

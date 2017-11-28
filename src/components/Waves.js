@@ -63,9 +63,10 @@ export default class Waves extends React.Component {
     renderer.setClearColor(0x252627)
     renderer.setPixelRatio(window.devicePixelRatio)
     renderer.setSize(width, height)
-    this.removeChildren(this.refs.container)
-    this.refs.container.appendChild(renderer.domElement)
-  
+    if (this.refs.container) {
+      this.removeChildren(this.refs.container)
+      this.refs.container.appendChild(renderer.domElement)
+    }
   }
 
   setupLights = () => {

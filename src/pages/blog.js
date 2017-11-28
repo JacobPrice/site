@@ -9,17 +9,11 @@ const Div = styled.div`
     padding: 2em;
 `
 const Year = styled.h2`
-    border: 0;
-    color: #08FDD8;
-    font-weight: 300;
 `
 const Post = styled.h3`
-    color: #08FDD8;
-    font-weight: 400;
     font-size: 1em;
 `
 const Date = styled.small`
-    color: #4D4D4E;
 `
 class BlogIndex extends React.Component {
   render() {
@@ -36,7 +30,7 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <Post>
                 <Link style={{color: 'inherit'}} to={node.fields.slug}>{title}</Link>
-                 <Date> {node.frontmatter.date}</Date>
+                 <Date> - {node.frontmatter.date}</Date>
               </Post>
             </div>
           )

@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "site",
+  "description": "My home on the internet.",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jacob Price <j@cobprice.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/jacobprice/site/issues"
   },
   "dependencies": {
     "gatsby": "^1.9.110",
@@ -36,10 +36,10 @@
   "devDependencies": {
     "eslint": "^4.11.0",
     "eslint-plugin-react": "^7.4.0",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "prettier": "^1.8.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/jacobprice/site#readme",
   "keywords": [
     "gatsby"
   ],
@@ -47,7 +47,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/jacobprice/site.git"
   },
   "scripts": {
     "dev": "gatsby develop",
