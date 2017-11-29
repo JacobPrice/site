@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
-import Waves from '../components/waves'
+import Waves from '../components/Waves'
 
 const Grid = styled.div`
   background: #252627;
