@@ -1,6 +1,7 @@
 import React from 'react'
 import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
+import Helmet from 'react-helmet'
 
 import Github from '../components/Icons/Github'
 import Mail from '../components/Icons/Mail'
@@ -70,6 +71,9 @@ class Template extends React.Component {
 
     return (
       <Container>
+        <Helmet>
+          <meta name="theme-color" content="#252627" />
+        </Helmet>
         <Nav />
       {children()}
       </Container>
