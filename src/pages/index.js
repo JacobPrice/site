@@ -8,6 +8,11 @@ import Waves from '../components/Waves'
 const Grid = styled.div`
   background: #252627;
   align-self: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 `
 const LastPost = styled.div`
   position: relative;
