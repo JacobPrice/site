@@ -4,14 +4,13 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 const Div = styled.div`
-    margin: 0 auto;
-    max-width: 700px;
-    padding: 2em;
+  max-width: 768px;
+  margin: 0px auto;
+  padding: 0px 1em;
 `
-const Year = styled.h2`
+const Year = styled.h1`
 `
 const Post = styled.h3`
-    font-size: 1em;
 `
 const Date = styled.small`
 `

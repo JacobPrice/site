@@ -18,11 +18,11 @@
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-remark-copy-linked-files": "^1.5.21",
     "gatsby-remark-images": "^1.5.31",
-    "gatsby-remark-prismjs": "^1.2.9",
+    "gatsby-remark-prismjs": "^1.2.10",
     "gatsby-remark-responsive-iframe": "^1.4.14",
     "gatsby-remark-smartypants": "^1.4.8",
     "gatsby-source-filesystem": "^1.5.8",
-    "gatsby-transformer-remark": "^1.7.20",
+    "gatsby-transformer-remark": "^1.7.23",
     "gatsby-transformer-sharp": "^1.6.13",
     "lodash": "^4.17.4",
     "react-responsive-grid": "^0.3.4",
@@ -31,9 +31,11 @@
     "tween.js": "^16.6.0",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
+    "typography-theme-fairy-gates": "^0.15.11",
     "typography-theme-github": "^0.15.10"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.3",
     "eslint": "^4.11.0",
     "eslint-plugin-react": "^7.4.0",
     "gh-pages": "^1.1.0",
@@ -51,6 +53,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
+    "new-post": "node ./cli/createPost.js",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
