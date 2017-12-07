@@ -26,10 +26,11 @@ not unnecessarily allocated to fixing something that isn’t an issue.
 Back to today’s post.
 
 Later I will write up more about the technologies my site uses, you can view the
-source here if you’d like. Basically, all you need to know to understand why I
-did this, is that I write my posts in markdown. I have it set up so that I am
-able to utilize frontmatter to label my post with a title and give a timestamp.
-These posts live in a folder structure like so:
+source [here](https://github.com/JacobPrice/site) if you’d like. Basically, all
+you need to know to understand why I did this, is that I write my posts in
+markdown. I have it set up so that I am able to utilize frontmatter to label my
+post with a title and give a timestamp. These posts live in a folder structure
+like so:
 
 ```
 ├── blog
