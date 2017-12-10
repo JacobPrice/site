@@ -13,7 +13,7 @@ particularly quantifiable.
 
 ## 2018 Goals
 
-* [ ] Write something everyday for 100 days
+* [ ] Write something every week
 * [ ] Acquire a rental property
 * [ ] Lose 20lbs
 * [ ] Squat 425lbs
