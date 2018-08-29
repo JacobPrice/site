@@ -8,8 +8,6 @@ const Div = styled.div`
   margin: 0px auto;
   padding: 0px 1em;
 `
-const Year = styled.h1`
-`
 const Post = styled.h3`
 `
 const Date = styled.small`
@@ -21,7 +19,6 @@ class BlogIndex extends React.Component {
    const posts = this.props.data.allMarkdownRemark.edges
     return (
     <Div>
-        <Year>2017</Year>
         <Helmet title={siteTitle} />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -56,7 +53,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "M/D")
+            date(formatString: "M/D/YY")
             title
           }
         }
