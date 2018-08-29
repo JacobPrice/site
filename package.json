@@ -54,6 +54,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public",
     "new-post": "node ./cli/createPost.js",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
