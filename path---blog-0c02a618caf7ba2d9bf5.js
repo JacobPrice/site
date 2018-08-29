@@ -1,2 +1,0 @@
-webpackJsonp([49683490770531],{398:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Jacob Price"}},allMarkdownRemark:{edges:[{node:{excerpt:"This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…",fields:{slug:"/hello-world/"},frontmatter:{date:"11/11",title:"Hello World"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---blog-0c02a618caf7ba2d9bf5.js.map

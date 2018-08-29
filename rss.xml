@@ -1,50 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jacob Price]]></title><description><![CDATA[My house on the internet]]></description><link>https://www.JacobPrice.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 28 Nov 2017 12:10:04 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://www.JacobPrice.io//hello-world/</link><guid isPermaLink="false">https://www.JacobPrice.io//hello-world/</guid><pubDate>Sat, 11 Nov 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jacob Price]]></title><description><![CDATA[My house on the internet]]></description><link>https://www.JacobPrice.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 29 Aug 2018 02:18:15 GMT</lastBuildDate><item><title><![CDATA[The tech behind this site]]></title><description><![CDATA[This site is built on GatsbyJS, a static site generator that utilizes Node,
+GraphQL, and React. To be continued…]]></description><link>https://www.JacobPrice.io//blog/2017-12-07---The-tech-behind-this-site/</link><guid isPermaLink="false">https://www.JacobPrice.io//blog/2017-12-07---The-tech-behind-this-site/</guid><pubDate>Fri, 08 Dec 2017 03:37:18 GMT</pubDate><content:encoded>&lt;p&gt;This site is built on GatsbyJS, a static site generator that utilizes Node,
+GraphQL, and React.&lt;/p&gt;
+&lt;p&gt;To be continued…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creating A Node CLI For This Blog]]></title><description><![CDATA[Most developers are what I call ‘ambitiously lazy’, including myself… That is
+not a derogatory remark, but rather a side effect of power…]]></description><link>https://www.JacobPrice.io//blog/2017-12-06---Creating-a-Node-CLI-for-this-blog/</link><guid isPermaLink="false">https://www.JacobPrice.io//blog/2017-12-06---Creating-a-Node-CLI-for-this-blog/</guid><pubDate>Wed, 06 Dec 2017 23:06:25 GMT</pubDate><content:encoded>&lt;p&gt;Most developers are what I call ‘ambitiously lazy’, including myself… That is
+not a derogatory remark, but rather a side effect of power, great power.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;p&gt;With great power comes great responsibility.&lt;/p&gt;
+&lt;p&gt;— Spiderman&lt;/p&gt;
+&lt;p&gt;Saturday - Nov 10,2012(2:00 am)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-3f5a1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0TSF//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2Ews6MfeuT//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEUH/2gAIAQMBAT8B1K//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEhIjH/2gAIAQEABj8Cvhm4GjQoOH//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQTGB/9oACAEBAAE/IdiukV6U2KKFGWBv87KYcfJUlcT/2gAMAwEAAgADAAAAEEvv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEA/9oACAEDAQE/EJUXVk3/xAAZEQACAwEAAAAAAAAAAAAAAAAAARExUeH/2gAIAQIBAT8QWuE9I//EAB0QAQACAgIDAAAAAAAAAAAAAAERMQAhQVFhcYH/2gAIAQEAAT8QdcpkKPmH5mtU9JjBarrjdZRtQqnnJozWemAPUyjrP//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f8fb9.jpg&quot;
-        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-e8976.jpg 148w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-63df2.jpg 295w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f8fb9.jpg 590w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-85e3d.jpg 885w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-d1924.jpg 1180w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-9452e.jpg 1770w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-3f5a1.jpg 2048w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;The power that developers have is that they can utilize the wonderful world of
+programming to accomplish a goal. Now, this can be a great thing, but can also
+lead to some serious rabbit holes. We’ve all heard the stories of someone taking
+hours to solve something that routinely takes them like 2 minutes. My particular
+case that I’m going to share today is not really that bad because it didn’t take
+me a substantial period of time, but I am guilty of spending a little to much
+time on issues that were less than minor.&lt;/p&gt;
+&lt;p&gt;The benefits of the automation should truly be measured to ensure that time is
+not unnecessarily allocated to fixing something that isn’t an issue.&lt;/p&gt;
+&lt;p&gt;Back to today’s post.&lt;/p&gt;
+&lt;p&gt;Later I will write up more about the technologies my site uses, you can view the
+source &lt;a href=&quot;https://github.com/JacobPrice/site&quot;&gt;here&lt;/a&gt; if you’d like. Basically, all
+you need to know to understand why I did this, is that I write my posts in
+markdown. I have it set up so that I am able to utilize frontmatter to label my
+post with a title and give a timestamp. These posts live in a folder structure
+like so:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;├── blog
+   ├── Creating-a-Node-CLI-for-this-blog
+   │   └── index.md
+   └── day-0
+       └── index.md&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The index.md file has the front matter I mentioned which looks like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-markdown&quot;&gt;&lt;code&gt;&lt;span class=&quot;token hr punctuation&quot;&gt;---&lt;/span&gt;
+title: &apos;Creating a Node CLI for this blog&apos;
+&lt;span class=&quot;token title important&quot;&gt;date: &apos;2017-12-06T23:06:25.808Z&apos;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;&lt;/span&gt;
+
+Most developers are what I call &apos;ambitiously lazy&apos;, including myself…
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;As you can probably guess, I’m not typing out that date. I can read binary if I
+really try (I’m a nerd), but nope not writing that date. I decided that I would
+start a CLI for my site and being able to create a new post seemed like the
+perfect place to start.&lt;/p&gt;
+&lt;p&gt;Really I didn’t need much. I just wanted to be able to create a post by running
+&lt;code&gt;npm run create-post&lt;/code&gt; -&gt; type the title and then be done.&lt;/p&gt;
+&lt;p&gt;I accomplished just that by doing the following&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-jsx&quot;&gt;&lt;code&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; fs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;fs-extra&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; prompt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;prompt&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;
+prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;title&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`The post &apos;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; has been created!`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// Make the directory&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;-&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; dir &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`./src/pages/blog/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;title&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+  fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;ensureDir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dir&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// Make the new empty post&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; newPost &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`---
+title: &apos;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;
+date: &apos;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;now&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toJSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;
+---
+  `&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; postPath &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;dir&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;/index.md`&lt;/span&gt;&lt;/span&gt;
+  fs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;writeFile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;postPath&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; newPost&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; fileContents&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; err
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;That resulted in the following process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/3oxHQuntMljWKIxBeg/giphy.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;It really wouldn’t be difficult to create a new folder and file for each post,
+but I’m a developer and I make things a little bit easier when I can.&lt;/p&gt;</content:encoded></item></channel></rss>
